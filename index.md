@@ -1,3 +1,6 @@
+---
+layout: none
+---
 
 <link rel="stylesheet" href="style.css">
 
