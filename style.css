@@ -143,5 +143,16 @@ th {
     from { opacity: 0; transform: translateY(10px); }
     to   { opacity: 1; transform: translateY(0); }
 }
+
+/* Shift all content to the right (except sidebar) */
+:not(#sidebar) {
+    margin-left: 260px !important;
+}
+
+/* Sidebar stays fixed */
+#sidebar {
+    margin-left: 0 !important;
+}
+
 </style>
 
