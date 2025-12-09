@@ -1,0 +1,146 @@
+---
+title: "Μείωση του Προσωπικού Αποτυπώματος CO2 με την Συμβολή Ψηφιακών Συστημάτων"
+---
+
+<style>
+/* --------------------------
+   ΒΑΣΙΚΟ ΣΤΥΛ ΣΕΛΙΔΑΣ
+-----------------------------*/
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    margin-left: 240px; /* Χώρος για το sidebar */
+    padding: 20px;
+}
+
+/* --------------------------
+   ΤΙΤΛΟΙ
+-----------------------------*/
+h1, h2, h3 {
+    color: #2E8B57;
+    text-transform: uppercase;
+    font-weight: bold;
+     margin-top: 90px;
+}
+
+/* --------------------------
+   ΚΕΝΤΡΑΡΙΣΜΕΝΟΣ ΤΙΤΛΟΣ
+-----------------------------*/
+.title-block {
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1.4s ease-in-out forwards;
+}
+
+/* --------------------------
+   ΟΝΟΜΑ ΦΟΙΤΗΤΗ
+-----------------------------*/
+.student-name {
+    text-align: center;
+    color: #2E8B57;
+    font-size: 16px;
+    text-transform: lowercase;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    animation: fadeIn 1.6s ease-in-out forwards;
+}
+
+/* --------------------------
+   ΕΙΚΟΝΑ ΚΑΤΩ ΑΠΟ ΤΙΤΛΟ
+-----------------------------*/
+.title-image {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeIn 1.8s ease-in-out forwards;
+}
+
+/* --------------------------
+   ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ (ΚΕΝΤΡΟ)
+-----------------------------*/
+#toc-wrapper {
+    text-align: center;
+    margin-bottom: 35px;
+    animation: fadeIn 2.0s ease-in-out forwards;
+}
+
+#toc-wrapper h2 {
+    text-decoration: underline;
+}
+
+/* --------------------------
+   ΦΩΤΟΓΡΑΦΙΕΣ ΣΤΟ ΠΕΡΙΕΧΟΜΕΝΟ
+-----------------------------*/
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* --------------------------
+   ΠΙΝΑΚΕΣ
+-----------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e9f5ee;
+    font-weight: bold;
+}
+
+/* --------------------------
+   STICKY SIDEBAR
+-----------------------------*/
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 100%;
+    background-color: #f5fff7;
+    border-right: 2px solid #c7e7d2;
+    padding-top: 40px;
+}
+
+#sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+#sidebar {
+    text-align: center; 
+}
+
+.sidebar-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#sidebar a:hover {
+    background-color: #dff5e3;
+    transform: translateX(5px);
+}
+
+/* --------------------------
+   FADE-IN ANIMATION
+-----------------------------*/
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+
